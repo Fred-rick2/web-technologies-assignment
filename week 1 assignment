@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Optional CSS styles for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
 
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my portfolio website. Here you can find information about me and my projects.</p>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>I am passionate about web development and design. I enjoy creating functional and visually appealing websites.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Here are some of my recent projects:</p>
+    <ul>
+        <li><a href="project1.html">Project 1</a> - Description of Project 1</li>
+        <li><a href="project2.html">Project 2</a> - Description of Project 2</li>
+        <li><a href="project3.html">Project 3</a> - Description of Project 3</li>
+    </ul>
+</section>
+
+</body>
+</html>
